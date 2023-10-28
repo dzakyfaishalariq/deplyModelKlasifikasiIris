@@ -13,8 +13,21 @@ class RestApi:
     def modelKlasifikasiBungaIris(self,sepalLength,sepalWidth, petalLength,petalWidth):
         sL,sW,pL,pW = float(sepalLength), float(sepalWidth), float(petalLength), float(petalWidth)
         model = load_model('modelKlasifikasi/modelIris.h5')
+        dataHasil = {}
         nilaiprediksi = model.predict([[sL,sW,pL,pW]])
+        dataHasil['akurasi'] = float(np.max(nilaiprediksi))
         nilaiprediksi = np.argmax(nilaiprediksi)
-        print(nilaiprediksi)
         nilaiprediksi = int(nilaiprediksi)
-        return nilaiprediksi
+        dataHasil['predikisIndex'] = nilaiprediksi
+        if nilaiprediksi == 0:
+            dataHasil['class'] = "Iris Setosa"
+        elif nilaiprediksi == 1:
+            dataHasil['class'] = "Iris Versicolor"
+        elif nilaiprediksi == 2:
+            dataHasil['class'] = "Iris Verginica"
+        dataHasil['inisial'] = {
+            0 : "Iris Setosa",
+            1 : "Iris Versicolor",
+            2 : "Iris Verginica"
+        }
+        return dataHasil
