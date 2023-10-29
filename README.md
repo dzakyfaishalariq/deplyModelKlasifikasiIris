@@ -59,5 +59,5 @@ maka dia akan memberikan beberapa informasi seperti
 - inisial
 - prediksi index
 
-jikalau ada kekurangan harap berikan tanggapan anda terhadap API ini semoga nanti dapat di perbaiki dan diperbarui.
+jikalau ada kekurangan harap berikan tanggapan anda terhadap API ini semoga nanti dapat di perbaiki dan diperbarui. Jika ingin melihat proses pembuatan model nya kunjungi repository berikut ini : [link pembuatan model](https://github.com/dzakyfaishalariq/KlasifikasiBungaIris.git)
 Salam dari saya...
