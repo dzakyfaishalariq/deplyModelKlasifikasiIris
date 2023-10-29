@@ -1,3 +1,4 @@
+![Bunga Iris](https://th.bing.com/th/id/OIP.jM-nWv4Ts4h9JgiESqq2hgHaIl?pid=ImgDet&rs=1)
 # Dokumentasi API Klasifiksi bunga iris
 untuk mengakses API klasifikasi bunga iris cukup kunjungi link API berikut ini. `catatan harus download **postman**`
 karena untuk mengakses api ini lebih enak menggunkan hal tersebut karena dapat mengkases secara leluasa dari api yang bersangkutan. berikut link untuk mendwonload postman: [postman](https://www.postman.com/) jikalau bingun cara menggunakan lakukan akses link youtube untuk mempelajari postman tersebut : [link pembelajaran](https://www.youtube.com/watch?v=bBUNP2YVIQA)
